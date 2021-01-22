@@ -116,6 +116,7 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:maxLines="1"
                     android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:inputType="textPassword"
                     android:textSize="15sp" />
 
                 <View
@@ -124,7 +125,6 @@
                     android:layout_marginTop="6.3dp"
                     android:layout_marginRight="44.3dp"
                     android:background="#d5d5d5" />
-
 
             </LinearLayout>
 
@@ -160,6 +160,26 @@
                         android:layout_marginLeft="29dp"
                         android:layout_marginTop="50dp"
                         android:src="@drawable/yellow_twitter" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/register_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="15.3dp"
+                            android:text="Sign Up"
+                            android:textColor="#FFFFFF"
+                            android:textSize="10sp"
+                            android:textAllCaps="false"
+                            android:background="#28df99"
+                            android:enabled="true"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -203,6 +223,7 @@
                 android:textSize="15sp" />
 
             <TextView
+                android:id="@+id/signup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
