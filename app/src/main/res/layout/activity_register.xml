@@ -130,6 +130,24 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/register_button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="230dp"
+                    android:src="@drawable/loginbtn" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:orientation="horizontal"
@@ -149,7 +167,7 @@
                     android:src="@drawable/yellow_linkedin" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="205dp"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -162,13 +180,14 @@
                         android:src="@drawable/yellow_twitter" />
 
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.4"
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <Button
+
+                        <!--<Button
                             android:id="@+id/register_button"
                             android:layout_width="match_parent"
                             android:layout_height="15.3dp"
@@ -176,8 +195,8 @@
                             android:textColor="#FFFFFF"
                             android:textSize="10sp"
                             android:textAllCaps="false"
-                            android:background="#28df99"
-                            android:enabled="true"/>
+                            android:background="@drawable/roundedbutton"
+                            android:enabled="true"/>-->
 
                     </LinearLayout>
 
