@@ -20,12 +20,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="480dp"
+            android:layout_height="580dp"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="444dp"
+                android:layout_height="560dp"
                 android:background="@drawable/white_cueve_bg" />
 
 
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="57.7dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="LOGIN"
+                    android:text="Register"
                     android:textColor="#030303"
                     android:textSize="31.3sp" />
 
@@ -51,7 +51,33 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Email or Username"
+                    android:text="Email"
+                    android:textColor="@color/ijoini"
+                    android:textSize="13.3sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:maxLines="1"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6.3dp"
+                    android:layout_marginRight="44.3dp"
+                    android:background="#d5d5d5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Username"
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
@@ -82,24 +108,22 @@
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:maxLines="1"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp" />
+
                 <View
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:layout_marginTop="6.3dp"
                     android:layout_marginRight="44.3dp"
                     android:background="#d5d5d5" />
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginTop="17.3dp"
-                    android:layout_marginRight="44.3dp"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Forgot Password?"
-                    android:textColor="@color/ijoini"
-                    android:textSize="12.3sp" />
 
 
             </LinearLayout>
@@ -119,7 +143,7 @@
 
                 <ImageView
                     android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_height="58dp"
                     android:layout_marginLeft="29dp"
                     android:layout_marginTop="30dp"
                     android:src="@drawable/yellow_linkedin" />
@@ -145,12 +169,6 @@
                     android:layout_weight="0.4"
                     android:gravity="center"
                     android:orientation="vertical">
-
-
-                    <ImageView
-                        android:layout_width="18.7dp"
-                        android:layout_height="15.3dp"
-                        android:src="@drawable/black_arrow" />
 
                 </LinearLayout>
 
@@ -180,18 +198,17 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
-                android:text="Belum Punya akun?"
+                android:text="Already have an account?"
                 android:textColor="@color/ijoini"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/regis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
-                android:text="Register"
+                android:text="Signup"
                 android:textColor="@color/ijoini"
                 android:textSize="15sp" />
 
