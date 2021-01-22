@@ -4,8 +4,8 @@
     <color name="colorPrimary">#00B30F</color>
     <color name="colorPrimaryDark">#00B30F</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="color_blue">#00B30F</color>
-    <color name="color_violet">#99f3bd</color>
-    <color name="color_pink">#BAE74E</color>
+    <color name="color_green1">#00B30F</color>
+    <color name="color_green2">#59E32C</color>
+    <color name="color_green3">#C4F450</color>
     <color name="ijoini">#184d47</color>
 </resources>
