@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="white">#fff</color>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="white">#787878</color>
+    <color name="colorPrimary">#00B30F</color>
+    <color name="colorPrimaryDark">#00B30F</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="color_blue">#28df99</color>
+    <color name="color_blue">#00B30F</color>
     <color name="color_violet">#99f3bd</color>
-    <color name="color_pink">#d2f6c5</color>
+    <color name="color_pink">#BAE74E</color>
     <color name="ijoini">#184d47</color>
 </resources>
