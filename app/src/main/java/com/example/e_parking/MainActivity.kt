@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "welcome",Toast.LENGTH_SHORT).show()
         setContentView(R.layout.activity_register)
     }
-    textView.setOnClickListener(new View.OnClickListener(){
-        public void onClick(View v){
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
-    });
+//    textView.setOnClickListener(new View.OnClickListener(){
+//        public void onClick(View v){
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
+//        }
+//    });
 }
