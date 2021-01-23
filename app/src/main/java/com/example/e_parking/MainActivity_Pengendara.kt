@@ -3,12 +3,12 @@ package com.example.e_parking
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_pengendara_beranda.*
 
 class MainActivity_Pengendara : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_pengendara_beranda)
         bottomNavigationView.background = null
         bottomNavigationView.menu.getItem(2).isEnabled = false
         
