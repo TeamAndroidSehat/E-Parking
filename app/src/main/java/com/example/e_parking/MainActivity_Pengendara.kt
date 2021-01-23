@@ -13,11 +13,13 @@ class MainActivity_Pengendara : AppCompatActivity() {
         bottomNavigationView.menu.getItem(1).isEnabled = false
         
         val BerandaPengendaraFragment = Beranda_Pengendara()
+        val ProfilePengendaraFragment = Profile_Pengendara()
 
         makeCurrentFragment(BerandaPengendaraFragment)
         bottomNavigationView.setOnNavigationItemReselectedListener {
             when(it.itemId){
                 R.id.miHome -> makeCurrentFragment(BerandaPengendaraFragment)
+                R.id.miProfile -> makeCurrentFragment(ProfilePengendaraFragment)
             }
             true
         }
