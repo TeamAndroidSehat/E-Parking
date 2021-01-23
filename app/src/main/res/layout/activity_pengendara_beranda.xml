@@ -39,7 +39,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/asd"
-            android:src="@drawable/ic_add"
+            android:src="@drawable/ic_scan"
+            app:backgroundTint="@color/color_green2"
             app:layout_anchor="@id/bottomAppBar" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
