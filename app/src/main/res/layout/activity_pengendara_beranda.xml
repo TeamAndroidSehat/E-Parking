@@ -21,16 +21,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             app:fabCradleMargin="20dp"
+            app:fabAlignmentMode="center"
             app:fabCradleRoundedCornerRadius="20dp"
-            app:fabCradleVerticalOffset="10dp">
+            app:fabCradleVerticalOffset="3dp">
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottomNavigationView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/transparent"
-                app:menu="@menu/bottom_nav_menu" />
+                app:menu="@menu/bottom_nav_menu" >
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
 
         </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -41,7 +44,9 @@
             android:contentDescription="@string/asd"
             android:src="@drawable/ic_scan"
             app:backgroundTint="@color/color_green2"
-            app:layout_anchor="@id/bottomAppBar" />
+            app:layout_anchor="@+id/bottomAppBar"
+            app:layout_anchorGravity="top|center" />
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

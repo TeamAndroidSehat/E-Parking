@@ -10,8 +10,9 @@ class MainActivity_Pengendara : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pengendara_beranda)
         bottomNavigationView.background = null
-        bottomNavigationView.menu.getItem(1).isEnabled = false
-        
+        bottomNavigationView.menu.getItem(2).isEnabled = false
+
+
         val BerandaPengendaraFragment = Beranda_Pengendara()
         val ProfilePengendaraFragment = Profile_Pengendara()
 
