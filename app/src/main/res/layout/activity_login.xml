@@ -117,7 +117,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="106dp"
+                android:layout_height="124dp"
                 android:layout_gravity="bottom"
                 android:orientation="horizontal"
                 android:paddingLeft="30dp">
@@ -125,14 +125,14 @@
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="20dp"
                     android:src="@drawable/yellow_fb" />
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_marginLeft="29dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="40dp"
                     android:src="@drawable/yellow_linkedin" />
 
                 <LinearLayout
@@ -145,14 +145,14 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginLeft="29dp"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="60dp"
                         android:src="@drawable/yellow_twitter" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="31dp"
+                    android:layout_height="80dp"
                     android:layout_weight="0.4"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -169,8 +169,11 @@
                         android:id="@+id/register_button"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/loginbtn" />
-
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@android:color/transparent"
+                        android:padding="15dp"
+                        android:src="@drawable/loginbtn2" />
                 </LinearLayout>
 
             </LinearLayout>
