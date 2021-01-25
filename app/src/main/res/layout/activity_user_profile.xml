@@ -7,5 +7,40 @@
     tools:context=".UserProfile">
     android:orientation="vertical">
 
-    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fece2f"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logoprofile" />
+
+    <TextView
+        android:id="@+id/fullname_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:fontFamily="@font/bungee"
+        android:includeFontPadding="false"
+        android:text="Taimoor Sikander"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/username_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_field"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:includeFontPadding="false"
+        android:text="taimoor_sikander"
+        android:textSize="14sp" />
 </LinearLayoutt>
