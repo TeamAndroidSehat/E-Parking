@@ -6,23 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Beranda_Pengendara">
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="280dp"-->
-<!--        android:layout_height="67dp"-->
-<!--        android:layout_marginStart="69dp"-->
-<!--        android:layout_marginTop="258dp"-->
-<!--        android:layout_marginEnd="69dp"-->
-<!--        android:layout_marginBottom="260dp"-->
-<!--        android:text="Beranda"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textSize="36sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
 
     <ImageView
         android:id="@+id/imageView"
