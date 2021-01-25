@@ -30,6 +30,7 @@ class MainActivity_Pengendara : AppCompatActivity() {
 //
 //
 //
+
         val BerandaPengendaraFragment = Beranda_Pengendara()
         val ProfilePengendaraFragment = Profile_Pengendara()
         val MapsFragment = MapsFragment()
@@ -44,10 +45,9 @@ class MainActivity_Pengendara : AppCompatActivity() {
             true
         }
 
-//        fab.setOnClickListener {
-//            val intent = Intent(this, SplashScreenActivity::class.java)
-//            // start your next activity
-//            startActivity(intent)}
+        fab.setOnClickListener {
+            makeCurrentFragment(BerandaPengendaraFragment)
+        }
     }
 
     private fun makeCurrentFragment(fragment: Fragment) {
