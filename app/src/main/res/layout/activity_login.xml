@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="57.7dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="LOGIN"
+                    android:text="@string/login"
                     android:textColor="#030303"
                     android:textSize="31.3sp" />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Email or Username"
+                    android:text="Email atau Username"
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30.3dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Password"
+                    android:text="@string/password"
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
@@ -108,7 +108,7 @@
                     android:layout_marginTop="17.3dp"
                     android:layout_marginRight="44.3dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Forgot Password?"
+                    android:text="@string/forget_password"
                     android:textColor="@color/ijoini"
                     android:textSize="12.3sp" />
 
