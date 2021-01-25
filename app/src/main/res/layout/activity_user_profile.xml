@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayoutt xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserProfile">
+    tools:context=".UserProfile"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -20,77 +21,100 @@
             android:layout_centerVertical="true"
             android:src="@drawable/logoprofile" />
 
-    <TextView
-        android:id="@+id/fullname_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/profile_image"
-        android:fontFamily="@font/futurabold"
-        android:includeFontPadding="false"
-        android:text="Taimoor Sikander"
-        android:textColor="#000"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:fontFamily="@font/futurabold"
+            android:includeFontPadding="false"
+            android:text="Taimoor Sikander"
+            android:textColor="#000"
+            android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/username_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fullname_field"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/profile_image"
-        android:includeFontPadding="false"
-        android:text="taimoor_sikander"
-        android:textSize="14sp" />
+        <TextView
+            android:id="@+id/username_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullname_field"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:includeFontPadding="false"
+            android:text="taimoor_sikander"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
 
     <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-100dp"
-        android:layout_width="match_parent"
         android:padding="20dp">
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_height="125dp"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        app:cardBackgroundColor="#fece2f"
-        app:cardElevation="10dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#fece2f"
+            app:cardElevation="10dp">
 
-        <RelativeLayout
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:padding="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                android:padding="5dp">
 
-            <ImageView
-                android:layout_centerHorizontal="true"
-                android:layout_height="30dp"
-                android:layout_width="30dp"
-                android:src="@drawable/payment" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wallet" />
 
-            <TextView
-                android:fontFamily="@font/futurabold"
-                android:id="@+id/payment_label"
-                android:includeFontPadding="false"
-                android:layout_centerInParent="true"
+                <TextView
+                    android:id="@+id/payment_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/futurabold"
+                    android:includeFontPadding="false"
+                    android:text="$123"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/payment_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/payment_label"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:text="Balance"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Full Name"
+            android:id="@+id/full_name_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="$123"
-                android:textSize="20sp" />
+                android:layout_width="match_parent" />
 
-            <TextView
-                android:id="@+id/payment_desc"
-                android:includeFontPadding="false"
-                android:layout_below="@id/payment_label"
-                android:layout_centerHorizontal="true"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="Balance"
-                android:textSize="20sp" />
-
-        </RelativeLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-</LinearLayoutt>
+        </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
+</LinearLayout>
