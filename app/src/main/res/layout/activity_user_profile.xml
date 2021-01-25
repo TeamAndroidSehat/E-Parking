@@ -27,7 +27,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/profile_image"
-        android:fontFamily="@font/bungee"
+        android:fontFamily="@font/futurabold"
         android:includeFontPadding="false"
         android:text="Taimoor Sikander"
         android:textColor="#000"
