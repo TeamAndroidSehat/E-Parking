@@ -105,7 +105,23 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:hint="Full Name"
-            android:id="@+id/full_name_profile"
+            android:id="@+id/fullname_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Full Name"
+            android:id="@+id/email_profile"
             android:layout_height="wrap_content"
             android:layout_width="match_parent">
 
@@ -115,6 +131,30 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" />
 
+
         </com.google.android.material.textfield.TextInputLayout>
-</LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Full Name"
+            android:id="@+id/password_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:background="#fece2f"
+            android:fontFamily="@font/futurabold"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:text="UPDATE" />
+    </LinearLayout>
 </LinearLayout>
