@@ -9,7 +9,7 @@
     <item
         android:id="@+id/miParked"
         android:icon="@drawable/ic_parked_car"
-        android:title="Parking Location" />
+        android:title="Lokasi Parkir" />
 
     <item
         android:id="@+id/placeholder"
