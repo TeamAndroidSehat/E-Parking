@@ -64,7 +64,6 @@
             android:clipChildren="false"
             android:clipToPadding="false"
             android:divider="@android:color/transparent"
-            android:background=""
             android:dividerHeight="0.0px"
             android:elevation="8dp"
             app:cardElevation="10dp"

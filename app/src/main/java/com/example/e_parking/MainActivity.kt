@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent1)
         }
 
+
+
         /*
         signup.setOnClickListener{
             setContentView(R.layout.activity_main)
