@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Email"
+                    android:text="@string/email"
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="35dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Username"
+                    android:text="@string/username"
                     android:textColor="@color/ijoini"
                     android:textSize="13.3sp" />
 
@@ -238,8 +238,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
-                android:text="Already have an account?"
-                android:textColor="@color/ijoini"
+                android:text="Anda sudah punya akun?"
+                android:textColor="@color/white"
                 android:textSize="15sp" />
 
             <TextView
@@ -249,7 +249,7 @@
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_horizontal"
-                android:text="Signup"
+                android:text="@string/login"
                 android:textColor="@color/ijoini"
                 android:textSize="15sp" />
 
