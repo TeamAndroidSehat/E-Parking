@@ -11,7 +11,7 @@ import com.google.zxing.Result
 import kotlinx.android.synthetic.main.activity_main.*
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
-class MainActivity : AppCompatActivity(), ZXingScannerView.ResultHandler, View.OnClickListener {
+    class MainActivity : AppCompatActivity(), ZXingScannerView.ResultHandler, View.OnClickListener {
 
     private lateinit var mScannerView: ZXingScannerView
     private var isCaptured = false
