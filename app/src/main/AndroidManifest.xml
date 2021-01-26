@@ -36,6 +36,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity_Pengendara" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".ScanBarcode" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -46,5 +47,7 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+
 
 </manifest>
