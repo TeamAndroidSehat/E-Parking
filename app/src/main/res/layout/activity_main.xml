@@ -22,7 +22,7 @@
                 android:id="@+id/txtdash"
                 android:text="Taimoor Sikander"
                 android:textSize="30dp"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:fontFamily="@font/poppins_semibold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                 android:layout_below="@+id/txtdash"
                 android:text="Rp. 200.000"
                 android:textSize="24dp"
-                android:textColor="#52BAFF"
+                android:textColor="@color/colorPrimaryDark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />

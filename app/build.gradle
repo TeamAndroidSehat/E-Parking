@@ -47,4 +47,11 @@ dependencies {
     // glide image dependency
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation('me.dm7.barcodescanner:zxing:1.9.8') {
+        exclude group: 'com.android.support'
+    }
+    implementation 'me.dm7.barcodescanner:zxing:1.9.8'
+
+
 }

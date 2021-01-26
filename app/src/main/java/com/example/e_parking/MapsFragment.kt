@@ -28,10 +28,10 @@ class MapsFragment : Fragment() {
          * user has installed Google Play services and returned to the app.
          */
 
-        val lat = arrayOf(0.569253, 0.569039,0.535284)
-        val long = arrayOf(101.425056,101.426322,101.430206)
+        val lat = arrayOf(0.569253, 0.569039,0.535284,0.535329, 0.515347,0.499442,0.510063,0.517195   )
+        val long = arrayOf(101.425056,101.426322,101.430206,101.430106, 101.419963,101.418698,101.449694,101.445443)
 
-       for(i in 0..2){
+       for(i in 0..7){
                 val lokasi = LatLng(lat[i],long[i])
                 googleMap.addMarker(MarkerOptions().position(lokasi).title("Titik Parkik").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)))
                 googleMap.moveCamera(CameraUpdateFactory.newLatLng(lokasi))
