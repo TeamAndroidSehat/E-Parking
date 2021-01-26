@@ -46,7 +46,9 @@ class MainActivity_Pengendara : AppCompatActivity() {
         }
 
         fab.setOnClickListener {
-            makeCurrentFragment(BerandaPengendaraFragment)
+//            makeCurrentFragment(BerandaPengendaraFragment)
+            val intent = Intent(this, ScanBarcodeActivity::class.java);
+            startActivity(intent)
         }
     }
 
