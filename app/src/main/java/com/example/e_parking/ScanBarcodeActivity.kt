@@ -8,17 +8,17 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.google.zxing.Result
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_scan.*
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
-    class MainActivity : AppCompatActivity(), ZXingScannerView.ResultHandler, View.OnClickListener {
+    class ScanBarcodeActivity : AppCompatActivity(), ZXingScannerView.ResultHandler, View.OnClickListener {
 
     private lateinit var mScannerView: ZXingScannerView
     private var isCaptured = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_scan)
         initScannerView()
         initDefaultView()
         button_reset.setOnClickListener(this)
