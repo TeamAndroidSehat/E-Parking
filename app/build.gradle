@@ -44,4 +44,19 @@ dependencies {
     // glide image dependency
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    //Library QR Code
+    //source : https://github.com/zxing/zxing
+    implementation 'me.dm7.barcodescanner:zxing:1.9.13'
+
+    // Material Dialog Library
+    //source : https://github.com/PatilShreyas/MaterialDialog-Android
+    implementation 'com.shreyaspatil:MaterialDialog:2.1'
+
+    //Material Design
+    implementation 'com.google.android.material:material:1.1.0'
+
+    //Database SQLite
+    implementation "org.jetbrains.anko:anko-sqlite:0.10.8"
 }
